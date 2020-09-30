@@ -1,4 +1,3 @@
-self.navigator = self.navigator || { userAgent: '' };
 
 navigator.mediaDevices.getUserMedia({ video: true, audio: true }).then(function (stream) {
 
